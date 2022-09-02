@@ -1,4 +1,5 @@
 package Activity;
+import java.util.*;
 /*
    You are given a class AdvancedArithmetic which contains a method signature int
 divisor_sum(int n). You need to write another class called MyCalculator which implements the 
@@ -11,32 +12,24 @@ MyCalculator class only. Your class shouldn't be public.
 */
 
 
-		import java.io.*;
-		import java.util.*;
-		interface AdvancedArithmetic{
-		   int divisorSum(int n);
+		
+		public class Lab1{
+			void divisorsum(int n) {
+				int sum=0;
+				for(int i=1; i<n; i++) {
+					if (n%i==0) {
+						sum=sum+i;
+						
+					}
+				}
+				System.out.println("The sum of divisor :"+sum);
 		}
-
-		class Calculator implements AdvancedArithmetic{
-		public int divisorSum(int n){
-		    int sum=1;
-		    for(int i=2;i<=(n/2);i++){
-		        if(n%i==0)sum+=i;
-		    }
-		    if(n!=1)return sum+n;
-		    else return sum;
-		}
-		}
-
-		public class Lab1 {
-
-		    public static void main(String[] args) {
-		        Scanner sc=new Scanner(System.in);
-		        int n=sc.nextInt();
-		      	AdvancedArithmetic myCalculator=new Calculator(); 
-		        int sum=myCalculator.divisorSum(n);
-		        System.out.println("I implemented: AdvancedArithmetic\n"+sum);
-
-	}
+			public static void main(String[] args) {
+				Scanner ps=new Scanner(System.in);
+				int n=ps.nextInt();
+				Lab1 adv=new Lab1();
+				adv.divisorsum(n);
+			}
+	
 
 }
