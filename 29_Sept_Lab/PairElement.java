@@ -1,5 +1,9 @@
 package Lab_seasons;
-
+/*
+ Problem 4. 
+a Java program to find all pairs of elements in an array whose sum is 
+equal to a specified number
+ */
 public class PairElement {
 		  static void  pairs_value(int inputArray[], int inputNumber)  {
 		  System.out.println("Pairs of elements and their sum : ");
