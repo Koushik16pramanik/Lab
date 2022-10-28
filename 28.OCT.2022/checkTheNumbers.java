@@ -10,7 +10,7 @@ Print the product if both are positive else print the output as below:
 java.lang.Exception: x and y should not be zero.    */
 import java.util.*;
 
-public class Negativenumbers1  {
+public class checkTheNumbers {
     // Create a method.
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in); // Take a scanner class 
