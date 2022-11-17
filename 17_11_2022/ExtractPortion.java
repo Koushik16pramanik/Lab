@@ -12,7 +12,8 @@ public class ExtractPortion {
 		al.add("Orange");
 		al.add("White");
 		al.add("Black");
-		
+			
+		System.out.println("Array List" + al);
 		List<String> al1= al.subList(0, 3);
 		System.out.println("extract a portion of an array list "+ al1);
 	}}
