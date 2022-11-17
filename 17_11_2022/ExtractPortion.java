@@ -1,6 +1,6 @@
 package Lab_seasons;
 import java.util.*;
-/*   Problem Statement 3: 
+/*   Problem Statement 2: 
   Write a Java program to extract a portion of an array list.     */
 
 public class ExtractPortion {
