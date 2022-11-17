@@ -1,6 +1,6 @@
 package Lab_seasons;
 import java.util.*;
-/*    Problem Statement 4:
+/*    Problem Statement 3:
 	  Write a Java program to compare two array lists.    */
 
 public class Comparet_ArrayList {
