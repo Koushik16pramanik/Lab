@@ -4,8 +4,8 @@ import java.util.*;
 Write a Java program to insert the specified element at the front of a linked list.   */
 
 public class Add_Element_ArrayList {
-			public static void main(String[] args) {
-		    LinkedList<String> all = new LinkedList<String>();
+			public static void main(String[] args) {   // main method
+		    LinkedList<String> all = new LinkedList<String>();    // get a link list class
 		     	all.add("Rose");
 				all.add("Lavender");
 				all.add("Lotas");
