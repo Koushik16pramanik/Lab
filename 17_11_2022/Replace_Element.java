@@ -4,8 +4,8 @@ import java.util.*;
  Write a Java program to replace an element in a linked list.   */
 
 public class Replace_Element {
-			public static void main(String[] args) {
-			LinkedList<String> all = new LinkedList<String>();
+			public static void main(String[] args) {  // main method
+			LinkedList<String> all = new LinkedList<String>();  // create a link list class
 			all.add("Rose");
 			all.add("Lavender");
 			all.add("Lotas");
